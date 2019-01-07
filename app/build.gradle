@@ -42,18 +42,20 @@ dependencies {
     androidTestImplementation 'com.android.support.test:runner:1.0.2'
     androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.2'
     implementation project(':basemvp')
-
-    compile("com.facebook.fresco:fresco:1.10.0") {
+    compile('com.facebook.fresco:fresco:1.10.0') {
         exclude group: 'com.parse.bolts', module: 'bolts-android'
     }
-    compile("com.facebook.fresco:animated-base-support:1.1.0") {
+    compile('com.facebook.fresco:animated-base-support:1.1.0') {
         exclude group: 'com.parse.bolts', module: 'bolts-tasks'
     }
-    compile("com.facebook.fresco:animated-gif:1.0.0") {
+    compile('com.facebook.fresco:animated-gif:1.0.0') {
         exclude group: 'com.parse.bolts', module: 'bolts-tasks'
     }
-
     //butterknife
     implementation 'com.jakewharton:butterknife:8.8.1'
     annotationProcessor 'com.jakewharton:butterknife-compiler:8.8.1'
+
+    // StateView
+    implementation 'com.github.medyo:state-views:0.2'
+    implementation project(':WebSocket')
 }

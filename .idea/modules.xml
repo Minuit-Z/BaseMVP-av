@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/WebSocket/WebSocket.iml" filepath="$PROJECT_DIR$/WebSocket/WebSocket.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
       <module fileurl="file://$PROJECT_DIR$/basemvp/basemvp.iml" filepath="$PROJECT_DIR$/basemvp/basemvp.iml" />
       <module fileurl="file://$PROJECT_DIR$/ziye_mvp_master.iml" filepath="$PROJECT_DIR$/ziye_mvp_master.iml" />
